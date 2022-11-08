@@ -1,0 +1,69 @@
+/* document css */
+
+*{
+		padding: 0;
+		text-decoration: none;
+		background-color: #474A56;
+		color: #8f8e8e;
+		max-width: 1000px;
+		max-height: 900px;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		font-size: 16px;
+}
+
+.cabecalho, h1, h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.principal_esquerdo{
+    border-right: 1px solid gray;
+    padding-right: 15px;
+    
+}
+
+.principal_direito{
+    padding-left:15px;
+    
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #8f8f8f;
+}
+
+.logo{
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_sobre{
+    text-align: center;
+    max-width: 500px;
+}
